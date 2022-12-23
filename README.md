@@ -9,10 +9,10 @@ git pull
 
 New Branch
 -------------
-git branch spielwiese/mahend (new branch)
+git branch spielwiese/mand (new branch)
 git pull 
-git branch --set-upstream origin spielwiese/mahend
-git checkout spielwiese/mahend  (to change to already existing branch)
+git branch --set-upstream origin spielwiese/mand
+git checkout spielwiese/mand  (to change to already existing branch)
 
 Commit:
 ---------
