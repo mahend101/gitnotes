@@ -3,8 +3,8 @@ important commands using git. Minimalism is emphasized
 
 Clone a repo
 ------------
-git clone \<url\>
-cd \<dir\>
+git clone \<url\> <br>
+cd \<dir\>  <br>
 git pull
 
 New Branch
