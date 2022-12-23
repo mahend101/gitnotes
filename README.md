@@ -78,5 +78,5 @@ git log -2
 
 Deleted a file locally and didnt yet commit
 -------------------------------------------
-So you deleted a file, and immediately realized it was a mistake? This one is easy, just do:
-$ git checkout HEAD <filename>
+So you deleted a file, and immediately realized it was a mistake? This one is easy, just do: <br>
+$ git checkout HEAD \<filename\>
