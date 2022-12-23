@@ -1,6 +1,12 @@
 # gitnotes
 important commands using git. Minimalism is emphasized
 
+Clone a repo
+------------
+git clone <url>
+cd <dir>
+git pull
+
 New Branch
 -------------
 git branch spielwiese/mahend (new branch)
