@@ -15,9 +15,11 @@ git push -u origin main
 ```
 
 # …or push an existing repository from the command line
+```bash
 git remote add origin git@github.com:mbed101/pyNotes.git
 git branch -M main
 git push -u origin main
+```
 
 Clone a repo
 ------------
