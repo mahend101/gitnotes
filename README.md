@@ -1,9 +1,9 @@
 # gitnotes
 important commands using git. Minimalism is emphasized
 
-Initialize a github empty new repo
+# Initialize a github empty new repo
 -----------------------------------
-# create a new repository on the command line
+## create a new repository on the command line
 ```bash
 echo "# pyNotes" >> README.md
 git init
@@ -14,14 +14,14 @@ git remote add origin git@github.com:mbed101/pyNotes.git
 git push -u origin main
 ```
 
-# …or push an existing repository from the command line
+## …or push an existing repository from the command line
 ```bash
 git remote add origin git@github.com:mbed101/pyNotes.git
 git branch -M main
 git push -u origin main
 ```
 
-Clone a repo
+# Clone a repo
 ------------
 ```bash
 git clone \<url\> <br>
@@ -29,7 +29,7 @@ cd \<dir\>  <br>
 git pull
 ```
 
-New Branch
+# New Branch
 -------------
 ```
 git branch spielwiese/mand (new branch) <br>
@@ -38,14 +38,14 @@ git branch --set-upstream origin spielwiese/mand <br>
 git checkout spielwiese/mand  (to change to already existing branch) <br>
 ```
 
-Commit:
+# Commit:
 ---------
 ```
 git commit -am "msg" <br>
 git push <br>
 ```
 
-Delete local branch
+# Delete local branch
 ---------------------
 link: https://www.git-tower.com/learn/git/faq/delete-local-branch/
 
@@ -56,7 +56,7 @@ git branch -d feature/showImageVersion
 
 force delete local -> git branch -D feature/showImageVersion
 
-Merge:
+#Merge:
 ----------
 to merge hotfix to master
 1. checkout to master <br>
