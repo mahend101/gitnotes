@@ -109,3 +109,9 @@ Deleted a file locally and didnt yet commit
 -------------------------------------------
 So you deleted a file, and immediately realized it was a mistake? This one is easy, just do: <br>
 $ git checkout HEAD \<filename\>
+
+Reset all files in the folder to the remote GIT Repo
+----------------------------------------------------
+git restore --source=HEAD --staged --worktree -- aDirectory
+# or, shorter
+git restore -s@ -SW -- aDirectory
