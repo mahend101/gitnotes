@@ -113,5 +113,5 @@ $ git checkout HEAD \<filename\>
 Reset all files in the folder to the remote GIT Repo
 ----------------------------------------------------
 git restore --source=HEAD --staged --worktree -- aDirectory
-# or, shorter
+or, shorter
 git restore -s@ -SW -- aDirectory
