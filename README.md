@@ -115,4 +115,5 @@ Reset all files in the folder to the remote GIT Repo
 git restore --source=HEAD --staged --worktree -- aDirectory
 #### (shorter as follows) 
 git restore -s@ -SW -- aDirectory
+
 where 'aDirectory' is the directory name u want to restore
