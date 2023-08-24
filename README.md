@@ -87,6 +87,10 @@ Reset last commit
 ----------------------
 git reset --soft HEAD~1
 
+Reset last merge
+----------------------
+git reset --merge HEAD~1
+
 Undo last Reset
 ---------
 git reset 'HEAD@{1}'
