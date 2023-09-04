@@ -121,3 +121,8 @@ git restore --source=HEAD --staged --worktree -- aDirectory
 git restore -s@ -SW -- aDirectory    <br/>
 
 where 'aDirectory' is the directory name u want to restore
+
+Update submodules of an already cloned repo
+------------------------------------------------
+git submodule update --init
+
