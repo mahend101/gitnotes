@@ -126,7 +126,7 @@ Update submodules of an already cloned repo
 ------------------------------------------------
 git submodule update --init --recursive
 
-Rebase and squash a branch (eg. bugfix branch)
+Rebase and squash within a branch (eg. bugfix branch)
 ------------------------------------------------
 git rebase -i HEAD~3  <br>
 .. where 3 is the number of commits to be squashed <br>
