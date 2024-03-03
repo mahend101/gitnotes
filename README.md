@@ -128,10 +128,10 @@ git submodule update --init --recursive
 
 Rebase and squash a branch (eg. bugfix branch)
 ------------------------------------------------
-git rebase -i HEAD~3 
-.. where 3 is the number of commits to be squashed
-.. then in the i ( interactive) mode, leave the first command in vim to 'pick' but change other picks to 'squash' and then edit the commit for this commit(squash)
-... this will squash all the 3 commits in the HEAD into one to clean up the branch
+git rebase -i HEAD~3  <br>
+.. where 3 is the number of commits to be squashed <br>
+.. then in the i ( interactive) mode, leave the first command in vim to 'pick' but change other picks to 'squash' and then edit the commit for this commit(squash)  <br>
+... this will squash all the 3 commits in the HEAD into one to clean up the branch <br>
 
 
 
