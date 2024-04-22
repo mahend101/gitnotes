@@ -133,5 +133,13 @@ git rebase -i HEAD~3  <br>
 .. then in the i ( interactive) mode, leave the first command in vim to 'pick' but change other picks to 'squash' and then edit the commit for this commit(squash)  <br>
 ... this will squash all the 3 commits in the HEAD into one to clean up the branch <br>
 
+Force change the author of the last commit 
+----------------------------------------------
+git commit --amend --author="New Author Name <new.email@example.com>" --no-edit
 
+This will directly apply the change without opening the editor.
+
+After amending the commit with the new author's name, you may need to force push the changes to the remote repository if the commit is already pushed:
+
+git push origin HEAD --force
 
